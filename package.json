@@ -1,0 +1,14 @@
+{
+  "name": "delicious-library",
+  "version": "1.0.0",
+  "description": "Delicious Library XML2JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marc Ghorayeb",
+  "license": "ISC",
+  "dependencies": {
+    "xml-parser": "^1.2.1"
+  }
+}
