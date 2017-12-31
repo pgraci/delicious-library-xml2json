@@ -42,7 +42,11 @@ This should complete immediately, but may take longer depending on the size of y
 
 Once completed, there will now be a library.json file in this folder.
 
-Replace the sample library.xml file with one that you export, and run the node script again.
+Replace the sample library.xml file with one that you export. However you need to edit the xml file and delete the following line:
+
+`<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">`
+
+Save the file, and run the node script again.
 
 ## Authors
 
@@ -52,4 +56,4 @@ Replace the sample library.xml file with one that you export, and run the node s
 
 Forked from https://github.com/marcghorayeb/delicious-library-xml2json
 
-Sample library.xml file included is from this location.
+Sample library.xml file included is courtesy of Mark Hines @Realeyz for Likkle Shop NYC.
